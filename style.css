@@ -155,3 +155,35 @@ section .main-container{
         scale: 1;
     }
 }
+
+
+/*Profile section Intro*/
+.main-container .content{
+    color: white;
+    width: 40%;
+}
+.content h1{
+    font-size:clamp(1rem,1rem +5vw,1.8r);
+}
+
+.content h1 span{
+    color: #00FFFF;
+    text-shadow: 0 0 10px #00FFFF;
+}
+
+.content .typewriter{
+    font-size:clamp(1rem,1rem + 5vw,20.5rem);
+    font-weight: 600;
+}
+
+.content .typewriter-text{
+    color: #00FFFF;
+    text-shadow:0 0 10px #077b32;
+}
+
+.content p{
+    font-size: clamp(0.4rem,0.2rem + 9vw, 1rem);
+    margin: 10px 0;
+    color: white;
+}
+
