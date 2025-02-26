@@ -283,4 +283,36 @@ section .title span::after{
 
 
 
+.about .about-details .left{
+    width: 45%;
+}
+
+.about .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius:5px 50%;
+    position: relative;
+    box-shadow: 0 0 20px 5px #077b32 0 0 40p 10px #077b32;
+}
+
+.about-details .right{
+    width: 55%;
+}
+
+.right p span{
+    color: #00FFFF;
+}
+
+.about-details .right .exp-area{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+}
+
+
+
+
+
 
