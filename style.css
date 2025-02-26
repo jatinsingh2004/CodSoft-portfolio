@@ -17,3 +17,24 @@ body{
     background-color: rgb(41, 35, 83);
     overflow-x: hidden;
 }
+
+/*Custom Scrollbar*/
+
+::-webkit-scrollbar{
+    width:10px;
+    }
+    
+    ::-webkit-scrollbar-track{
+        background-color: #f0f0f0;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+        background-color: #0e5d5d;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover{
+        background-color: #285959;
+    }
+    
