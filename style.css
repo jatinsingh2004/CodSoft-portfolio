@@ -142,3 +142,16 @@ section .main-container{
 .main-container .image:hover{
     animation: alternate 1.5s ease-in-out infinite;
 }
+
+
+@keyframes animate {
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.05;
+    }
+    100%{
+        scale: 1;
+    }
+}
