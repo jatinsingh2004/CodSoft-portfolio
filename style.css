@@ -680,3 +680,31 @@ footer .text span a:hover{
     .about-details .right {
         margin-top: 20px;
     }
+
+
+    .skills-details {
+        flex-direction: column;
+    }
+
+    .skills-details .text,
+    .skills-details .boxes {
+        width: 100%;
+    }
+
+    .skills-details .box {
+        width: 100%;
+    }
+
+    .services .boxes .box {
+        width: 100%;
+    }
+
+    .contact-form-container {
+        width: 90%;
+    }
+
+    footer .text span {
+        font-size: 14px;
+    }
+}
+
