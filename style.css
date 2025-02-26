@@ -108,4 +108,37 @@ nav{
     color: #00FFFF;
 }
 
+
+
+
+
+section{
+    width:100%;
+    min-height:90vh;
+}
+
+section .main-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    align-items: center;
+}
+
+.main-container .image{
+    width: 500px;
+    height: 80vh;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 40px 10px #00FFFF;
+}
+
+.main-container .image img{
+    width: 125%;
+    scale: 1.1;
+    padding-top: 6%;
     
+}
+
+.main-container .image:hover{
+    animation: alternate 1.5s ease-in-out infinite;
+}
