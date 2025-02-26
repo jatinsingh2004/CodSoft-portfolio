@@ -313,6 +313,27 @@ section .title span::after{
 
 
 
+.exp-area .exp{
+    font-size: 1.2rem;
+}
+
+section .topic{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.about-details .right p{
+    text-align: justify;
+    color: white;
+}
+
+section .button{
+    margin: 1px 0;
+}
+
+
 
 
 
