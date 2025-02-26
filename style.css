@@ -570,3 +570,29 @@ section .button button:hover{
     background-color: #3498db;
 }
 
+
+
+/*Responsive Design*/
+
+@media(max-width:768px){
+    .contact-form-container{
+        padding: 10px;
+    }
+}
+
+@media (max-width:480px){
+    .contact-form h2{
+        font-size: 20px;
+    }
+
+    .contact-form{
+        padding: 0px;
+    }
+
+    .contact-btn{
+        font-size: 16px;
+    }
+}
+
+
+/*Footer Section*/
