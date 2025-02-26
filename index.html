@@ -267,4 +267,32 @@
                    
                     
                     <script>
+
+
+
+
+                          // Toggle the dropdown menu
+    const hamburg = document.querySelector('.hamburg');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburg.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+
+    // Close the menu when a link is clicked (optional)
+    navLinks.querySelectorAll('.link a').forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+        });
+    });
+</script>
+
+
+            
+                    </body>
+                    </html>
+
+
+</body>
+</html>
    
