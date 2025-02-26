@@ -210,3 +210,29 @@ section .main-container{
     background-color: #00FFFF;
     filter:drop-shadow(0 0 10px #00FFFF);
 }
+
+
+
+.content button{
+    width: 50%;
+    height: 8vh;
+    font-size: 100%;
+    margin: 30px 0;
+    background-color: teal;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: 0.2 linear;
+}
+
+.content button:hover{
+    scale: 1.1;
+    color: #00FFFF;
+    border: 2px solid #00FFFF;
+    background-color: transparent;
+    font-weight: 700;
+    box-shadow: 0 0 40px #00FFFF;
+}
+
