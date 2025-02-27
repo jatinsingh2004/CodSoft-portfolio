@@ -111,7 +111,6 @@ nav{
 
 
 
-
 section{
     width:100%;
     min-height:90vh;
@@ -136,7 +135,7 @@ section .main-container{
     width: 125%;
     scale: 1.1;
     padding-top: 6%;
-    
+
 }
 
 .main-container .image:hover{
@@ -262,7 +261,9 @@ section .title span{
     font-weight: 600;
     position: relative;
     padding-bottom: 8px;
-}section .title span::before,
+}
+
+section .title span::before,
 section .title span::after{
     content: "";
     position: absolute;
